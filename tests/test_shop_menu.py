@@ -3,10 +3,10 @@ from selenium.webdriver.common.by import By
 import time
 
 from PageObject.HomePage import HomePage
-from utilities.BaseClass import BaseClass
+from utilities.PageObject import PageObject
 
 
-class TestShopMenu(BaseClass):
+class TestShopMenu(PageObject):
     def test_shop_menu(self):
 
         # Verify the after clicking the shop button its menu list is as expected
